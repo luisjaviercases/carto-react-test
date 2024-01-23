@@ -15,6 +15,7 @@ const StyledSidebar = styled.div<{ $isOpen: boolean }>`
   top: 0;
   transition: left 0.3s ease-in-out;
   width: 250px;
+  z-index: 1;
 `;
 
 const Sidebar: FC<SidebarProps> = ({ children, isOpen }) => {
