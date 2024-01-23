@@ -12,6 +12,8 @@ const StyledToggleButton = styled.button`
   color: white;
   cursor: pointer;
   padding: 10px;
+  position: absolute;
+  z-index: 1;
 `;
 
 const ToggleButton: FC<ToggleButtonProps> = ({ isOpen, onClick }) => {
