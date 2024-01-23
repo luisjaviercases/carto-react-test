@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@deck.gl/carto": "^8.9.34",
+    "@deck.gl/core": "^8.9.34",
+    "@deck.gl/react": "^8.9.34",
+    "mapbox-gl": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-map-gl": "^5.3.21",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
