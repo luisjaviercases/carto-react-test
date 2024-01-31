@@ -9,7 +9,7 @@ interface PageContainerProps {
 const StyledPageContainer = styled.div<{ $isOpen: boolean }>`
   flex: 1;
   margin-left: ${({ $isOpen }) => ($isOpen ? '282px' : '0')};
-  padding: 20px;
+  padding: 1rem;
   transition: margin-left 0.3s ease-in-out;
 `;
 
